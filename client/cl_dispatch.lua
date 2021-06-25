@@ -102,7 +102,7 @@ function StartLoopThread()
             DisableAllControlActions(0)
             DisableAllControlActions(1)
             DisableAllControlActions(2)
-            DisablePlayerFiring(GetPlayerPed(-1), true) -- Disable weapon firing
+            DisablePlayerFiring(PlayerId(), true) -- Disable weapon firing
             DisableControlAction(0, 200, true)
             DisableControlAction(0, 177, true)
             DisableControlAction(0, 202, true)
